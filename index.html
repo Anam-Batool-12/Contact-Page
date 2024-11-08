@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+  <main>
+    <section id="contact-us">
+        <div class="contact-container">
+          <!-- Left Side: Contact Information -->
+          <div class="contact-info">
+            <h2> Let's Connect Together!</h2>
+            <p>
+              Questions, feedback, or just want to chat? We’re here to
+              listen. 
+               we’d love to hear
+              from you!
+            </p>
+            <p>
+              <strong>Email:</strong>
+              <a href="mailto:hello@contact.com"
+                >hello@contact.com</a
+              >
+            </p>
+            <p><strong>Phone:</strong> +1 (555) 123-4567</p>
+            <p><strong>Visit Us:</strong> 123 address, City</p>
+          </div>
+  
+          <!-- Right Side: Contact Form -->
+          <div class="contact-form">
+            <form id="contact-form" onsubmit="sendMessage(event)">
+              <input type="text" id="name" placeholder="Your Name" required />
+              <input type="email" id="email" placeholder="Your Email" required />
+              <textarea
+                id="message"
+                placeholder="Your Message"
+                required
+              ></textarea>
+              <button type="submit">Send Message</button>
+            </form>
+          </div>
+        </div>
+      </section>
+  </main>
+    <script src="script.js"></script>
+  </body>
+</html>
