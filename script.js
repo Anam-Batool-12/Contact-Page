@@ -1,6 +1,4 @@
-document.getElementById("orderButton").addEventListener("click", function() {
-    window.location.href = "your-order-page-link.html"; // Replace with your actual order page link
-});
+
 
 
 
